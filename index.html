@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body class="bg-[#fafafa] dark:bg-[#202C36] transition-colors">
+    <!-- HEADER START -->
+    <header class="py-[30px] md:py-6 shadow-sm dark:bg-[#2B3844] transition-colors">
+        <div class="max-w-[1309px] w-full mx-auto px-4">
+            <div class="flex items-center justify-between">
+                <h1>
+                    <a class="text-[#111517] text-sm md:text-2xl font-extrabold dark:text-white" href="./index.html">
+                        Where in the world?
+                    </a>
+                </h1>
+                
+                <button class="mode-btn flex items-center text-[#111517] text-xs md:text-base dark:text-white">
+                    <img class="mode-icon w-4 h-4 md:w-5 md:h-5 me-2" src="./img/moon-light-icon.svg" alt="Color mode icon">
+                    Dark Mode
+                </button>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+    
+    <!-- MAIN START -->
+    <main>
+        <section class="pt-6 pb-16 md:pt-12 md:pb-11">
+            <h2 class="sr-only">Countries list</h2>
+            <div class="max-w-[1309px] w-full mx-auto px-4">
+                <div class="flex items-center justify-between flex-wrap mb-8 lg:mb-12">
+                    <input class="w-full max-w-[480px] py-[18px] ps-6 shadow-sm rounded-[5px] dark:placeholder:text-white dark:bg-[#2B3844] mb-10 md:mb-0" type="search" aria-label="Search for a country…" placeholder="Search for a country…">
+                    
+                    <select class="py-[18px] px-6 rounded-[5px] bg-white text-[#111517] dark:bg-[#2B3844] dark:text-white">
+                        <option disabled hidden selected>Filter by Region</option>
+                        <option value="Africa">Africa</option>
+                        <option value="America">America</option>
+                        <option value="Asia">Asia</option>
+                        <option value="Europe">Europe</option>
+                        <option value="Oceania">Oceania</option>
+                    </select>
+                </div>
+                
+                <ul class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 lg:gap-[75px]">
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="https://flagcdn.com/uz.svg" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Uzbekistan</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 34,232,050</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Asia</p>
+                            <p class="dark:text-white"><b>Capital:</b> Tashkent</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="./img/flag-of-usa.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">United States of America</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 323,947,000</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Americas</p>
+                            <p class="dark:text-white"><b>Capital:</b> Washington. D.C.</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="/img/flag-of-brazil.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Brazil</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 206,135,893</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Americas</p>
+                            <p class="dark:text-white"><b>Capital:</b> Brasilia</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="/img/flag-of-iceland.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Iceland</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 334,300</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Europe</p>
+                            <p class="dark:text-white"><b>Capital:</b> Reykjavik</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="/img/flag-og-afghanistan.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Afghanistan</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 27,657,145</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Asia</p>
+                            <p class="dark:text-white"><b>Capital:</b> Kabul</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="/img/flag-of-aland-islands.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Åland Islands</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 28,875</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Europe</p>
+                            <p class="dark:text-white"><b>Capital:</b> Mariehamn</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="/img/flag-of-albania.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Albania</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 2,886,026</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Europe</p>
+                            <p class="dark:text-white"><b>Capital:</b> Tirana</p>
+                        </div>
+                    </li>
+
+                    <li class="shadow-sm rounded-[5px] overflow-hidden dark:bg-[#2B3844]">
+                        <img class="w-full h-40" src="/img/flag-of-algeria.png" alt="Uzbekistan flag img">
+                        
+                        <div class="pt-6 pb-[46px] ps-[26px]">
+                            <h3 class="text-[#111517] text-lg font-extrabold mb-4 dark:text-white">Algeria</h3>
+                            
+                            <p class="mb-2 dark:text-white"><b>Population:</b> 40,400,000</p>
+                            <p class="mb-2 dark:text-white"><b>Region:</b> Africa</p>
+                            <p class="dark:text-white"><b>Capital:</b> Algiers</p>
+                        </div>
+                    </li>
+                </ul>
+                
+            </div>
+        </section>
+    </main>
+    <!-- MAIN END -->
+    
+    
+    <script src="./js/main.js"></script>
+</body>
+</html>
